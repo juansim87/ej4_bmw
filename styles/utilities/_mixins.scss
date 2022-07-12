@@ -19,13 +19,13 @@
 }
 
 @mixin navButton () {
-    background-color: #1c69d5;
+    background-color: $bl;
     color: $wh;
     font-size: 1.5rem;
     padding: 2rem 12.5rem;
     margin-bottom: 2rem;
     cursor: pointer;
-    border-color: #1c69d5;
+    border-color: $bl;
 }
 
 @mixin entryBox () {

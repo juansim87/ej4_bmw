@@ -1,0 +1,55 @@
+#footer {
+    @include flexCenter(column, center, center);
+    width: 100%;
+    height: 50vh;
+    background-color: $lgr;
+    padding-top: 8rem;
+    
+    
+}
+
+.footer__menu {
+    width: 82%;
+    height: 80%;
+    @include flexCenter(row, flex-start, space-between);
+    border-top: $gr solid 1px;
+    padding-bottom: $sep;
+        
+    &--section {
+        @include flexCenter(column, flex-start, center);
+        padding-top: 4rem;
+        &__title {
+            margin-bottom: 2rem;
+        }
+        
+        &__option {
+            font-weight: 600;
+            color: $gr;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    
+}
+
+.footer__legal {
+    width: 100%;
+    height: 20%;
+    @include flexCenter(row, center, space-around);
+    background-color: $wh;
+    font-size: 1.5rem ;
+
+    &--co {
+        @include flexCenter(row, center, center);
+        
+        width: 30%;
+    }
+
+    &--politics {
+        @include flexCenter(row, center, center);
+        width: 70%;
+        gap: 2rem;
+        color: $bl;
+    }
+    
+}
