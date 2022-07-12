@@ -1,0 +1,63 @@
+#main {
+    width: 85%;
+    @include flexCenter(column, flex-start, center);
+    padding-top: 10%;
+}
+
+.main__series {
+    @include flexCenter(column, flex-start, center);
+    width:100%;
+    &--title {
+        padding: 1rem;
+        color: $lgr;
+        font-size: 2rem;
+    }
+    &--menu {
+        @include flexCenter(row, center, space-between);
+        width: 100%;
+        font-size: 2rem;
+        color: $lgr;
+        border-bottom: $lgr solid 1px;
+        font-weight: 700;
+        margin-bottom: 8rem;
+        
+    }
+    &--models {
+        @include flexCenter(row, flex-start, space-around);
+        width: 100%;
+        margin-bottom: 5rem;
+        
+        &__car {
+            @include flexCenter(column, center, center);
+            width: 100%;
+            &--img {
+                width: 75%;
+                margin-bottom: 1rem;
+            }
+            &--info {
+                @include flexCenter(column, flex-start, center);
+                width: 100%;
+                &__name {
+                    font-size: 1.9rem;
+                    font-weight: 700;
+                }
+                &__price {
+                    font-size: 1.5rem;
+                    color: $lgr;
+                    margin-bottom: 1rem;
+                }
+                &__interact {
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+.selected {
+    font-size: 3rem;
+    color: black;
+    border-bottom: blue solid 3px;
+    font-weight: 700;
+}
