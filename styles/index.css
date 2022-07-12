@@ -25,6 +25,7 @@ body {
 a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 #nav {
@@ -175,7 +176,7 @@ a, a:hover, a:focus, a:active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 10%;
+  margin: 8rem 0;
 }
 
 .main__series {
@@ -237,7 +238,7 @@ a, a:hover, a:focus, a:active {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100%;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 
 .main__series--models__car {
@@ -293,6 +294,156 @@ a, a:hover, a:focus, a:active {
 .main__series--models__car--info__interact {
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+.main__series--advertisements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95%;
+  margin-bottom: 8rem;
+}
+
+.main__series--advertisements--entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 1rem;
+  border: lightgrey solid 1px;
+  height: 100%;
+  width: 22%;
+}
+
+.main__series--advertisements--entry__img {
+  width: 100%;
+}
+
+.main__series--advertisements--entry__title {
+  font-size: 2.6rem;
+}
+
+.main__series--advertisements--entry__text {
+  font-size: 1.3rem;
+}
+
+.main__series--advertisements--entry__link {
+  margin: 0.5rem 0rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.main__series--blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95%;
+  margin-bottom: 8rem;
+}
+
+.main__series--blog__entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  border: lightgrey solid 1px;
+  height: 100%;
+  width: 47%;
+  height: 100%;
+}
+
+.main__series--blog__entry--img {
+  width: 100%;
+  height: 500px;
+}
+
+.main__series--blog__entry--title {
+  font-size: 2.6rem;
+}
+
+.main__series--blog__entry--link {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.main__series--utilities {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__series--utilities__option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 22%;
+  background-color: #eeeeee;
+  padding: 1.5rem 0;
+  gap: 1.5rem;
+  color: grey;
+}
+
+.main__series--utilities__option--icon {
+  height: 50px;
 }
 
 .selected {

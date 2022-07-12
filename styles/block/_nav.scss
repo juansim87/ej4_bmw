@@ -1,58 +1,57 @@
 #nav {
-    background-image: url(./img/blog/main.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    @include flexCenter (column, center, flex-start);
-    }
+  background-image: url(./img/blog/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  @include flexCenter(column, center, flex-start);
+}
 
 .nav__bar {
-    @include flexCenter (row, center, space-between);
-    @include navText ();
-    width: 75%;
-    max-height: 20%;
-    border-bottom: $wh solid 1px;
-    
-    &--menu {
-        @include flexCenter (row, center, space-between);
-        height: 100%;
-        width: 50%;
+  @include flexCenter(row, center, space-between);
+  @include navText();
+  width: 75%;
+  max-height: 20%;
+  border-bottom: $wh solid 1px;
 
+  &--menu {
+    @include flexCenter(row, center, space-between);
+    height: 100%;
+    width: 50%;
+  }
+
+  &--search {
+    @include flexCenter(row, center, flex-end);
+    height: 100%;
+    width: 50%;
+    gap: 2rem;
+
+    &--icon {
+      @include navIcons();
     }
-    
-    &--search {
-        @include flexCenter (row, center, flex-end);
-        height: 100%;
-        width: 50%;
-        gap: 2rem;
-        
-        &--icon {
-            @include navIcons ();
-        }
-        &--logo {
-            width: 150px;
-        }
+    &--logo {
+      width: 150px;
     }
+  }
 }
 
 .nav__main {
-    @include flexCenter (column, flex-start, flex-end);
-    height: 90%;
-    width: 95%;
-    color: $wh;
-    &--title {
-        font-size: $h1;
-        text-transform: $up;
-        font-weight: 600;
-    }
-    &--subtitle {
-        font-size: 3rem;
-        text-transform: $up;
-        font-weight: 600;
-    }
+  @include flexCenter(column, flex-start, flex-end);
+  height: 90%;
+  width: 95%;
+  color: $wh;
+  &--title {
+    font-size: $h1;
+    text-transform: $up;
+    font-weight: 600;
+  }
+  &--subtitle {
+    font-size: 3rem;
+    text-transform: $up;
+    font-weight: 600;
+  }
 
-    &--button {
-        @include navButton ();
-    }
+  &--button {
+    @include navButton();
+  }
 }
