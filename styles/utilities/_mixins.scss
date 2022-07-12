@@ -1,0 +1,27 @@
+@mixin flexCenter($direction, $align, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin navText () {
+    font-size: $h2;
+    font-weight: 700;
+    color: $wh;
+    padding: 2.5px;
+}
+
+@mixin navIcons () {
+    width: 50px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(42deg) brightness(99%) contrast(108%);
+    margin: 2.5px;
+}
+
+@mixin navButton () {
+    background-color: #1c69d5;
+    color: $wh;
+    font-size: 1.5rem;
+    padding: 2rem 12.5rem;
+    margin-bottom: 2rem;
+}
