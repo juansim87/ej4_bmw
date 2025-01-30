@@ -23,13 +23,13 @@ Este repositorio contiene un clon de la **web de BMW España de 2020**, proyecto
 ---
 
 ## Descripción del Proyecto
-Proyecto de HTML5 y CSS3 con primer acercamiento a SASS. En el proyecto se busca realizar un clon lo más aproximado posible al diseño de la web aportado por el profesor. No se dispone actualmente de la captura original, pero Archive.org muestra la [web de abril BMW de 2020](https://web.archive.org/web/20200301115629/https://www.bmw.es/es/index.html), para hacer una idea general del diseño de la web de aquel momento.
+Proyecto de HTML5 y CSS3 con primer acercamiento a SCSS. En el proyecto se busca realizar un clon lo más aproximado posible al diseño de la web aportado por el profesor. No se dispone actualmente de la captura original, pero Archive.org muestra la [web de abril BMW de 2020](https://web.archive.org/web/20200301115629/https://www.bmw.es/es/index.html), para hacer una idea general del diseño de la web de aquel momento.
 
 ---
 
 ## Objetivos
 1. Crear un diseño lo más cercano posible al de la web original.
-2. Aprender el uso del compilador SASS, usando mixins y variables de estilos.
+2. Aprender el uso del compilador SCSS, usando mixins y variables de estilos.
 3. Buscar los elementos gráficos necesarios para replicar la web.
 
 ---
@@ -37,7 +37,7 @@ Proyecto de HTML5 y CSS3 con primer acercamiento a SASS. En el proyecto se busca
 ## Tecnologías Usadas
 - **HTML5**
 - **CSS3**
-- **SASS**
+- **SCSS**
 - **Herramientas de desarrollo**: Visual Studio Code
 
 ---
@@ -65,4 +65,4 @@ Este proyecto ha sido totalmente desarrollado por Juan Simón Abad.
 
 ## Notas Adicionales / FAQ
 1. El proyecto no es responsivo, se copia el diseño desktop de la web BMW España a partir de una captura aportada por el mentor.
-2. El proyecto utiliza SASS y BEM para una mejor compilación de los estilos.
+2. El proyecto utiliza SCSS y BEM para una mejor compilación de los estilos.
