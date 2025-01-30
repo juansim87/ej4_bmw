@@ -29,7 +29,7 @@ Proyecto de HTML5 y CSS3 con primer acercamiento a SASS. En el proyecto se busca
 
 ## Objetivos
 1. Crear un diseño lo más cercano posible al de la web original.
-2. Aprender el uso del compilador SASS.
+2. Aprender el uso del compilador SASS, usando mixins y variables de estilos.
 3. Buscar los elementos gráficos necesarios para replicar la web.
 
 ---
